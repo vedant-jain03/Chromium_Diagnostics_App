@@ -7,8 +7,9 @@ Milestone 2: Create a simple Chrome Extension.(Completed)
 
 Milestone 3: Enable the PWA and Chrome Extension to communicate with each other (Completed)
 
-![bandicam 2021-03-26 13-30-46-451](https://user-images.githubusercontent.com/76901313/112621340-a236e800-8e4f-11eb-9504-2643d8652e5d.jpg)
-![bandicam 2021-03-26 13-30-51-309](https://user-images.githubusercontent.com/76901313/112621362-a82cc900-8e4f-11eb-80d2-35a92da2516a.jpg)
+![bandicam 2021-03-27 11-25-05-645](https://user-images.githubusercontent.com/76901313/112712049-d4e5ec80-8ef2-11eb-8539-eb79ed098e4d.jpg)
+![bandicam 2021-03-27 11-25-14-860](https://user-images.githubusercontent.com/76901313/112712051-d6171980-8ef2-11eb-8358-60e2796cd2a9.jpg)
+
 
 # Video Demo
 
