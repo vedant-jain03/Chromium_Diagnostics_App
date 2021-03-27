@@ -74,8 +74,10 @@ Follow these steps to get this:
   
   -> Milestone 3(Contain All files)
   
-# Additional
+# Future Perspective
 
--> I have also created System Diagnostics Manager page where you will get some basic Diagnostic function we will use for our PWA.
-
--> I have used Chart in my System data page to have enviournment like CPU utilization chart as mentioned.
+  -> I am going to design Diagnostic Manager page which will contain diagnostics tool 
+  
+  -> I am going to show real-time CPU details in my chart as now they are just numbers I have given
+  
+  -> I am going to design all Hardware,Diagnostic and others slidebars menu.
