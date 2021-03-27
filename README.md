@@ -13,10 +13,10 @@ Milestone 3: Enable the PWA and Chrome Extension to communicate with each other 
 
 # Video Demo
 
-https://drive.google.com/file/d/135VC3uBfWWKnQiI8yKX4GE1_CQhZTMxT/view?usp=sharing
+https://drive.google.com/file/d/13Wbn5EtQLzJxE0bsdNN2p1yqTaRyLfwx/view?usp=sharing
 
 # How to install PWA
-So you can install PWA by visiting this : https://vedant-jain03.github.io/Chromium_Diagnostics/ and then clicking on install button in right of search bar
+So you can install PWA by visiting this : https://vedant-jain03.github.io/Chromium_Diagnostics_App/ and then clicking on install button in right of search bar
 
 # Extension
 If you want to see extenion then follow these steps:
@@ -37,7 +37,7 @@ If you want to see extenion then follow these steps:
 
 Follow these steps to get this:
 
-->Open : https://vedant-jain03.github.io/Chromium_Diagnostics/
+->Open : https://vedant-jain03.github.io/Chromium_Diagnostics_App/
 
 ->For getting information you have to pin "My extension" extension on your browser
 
