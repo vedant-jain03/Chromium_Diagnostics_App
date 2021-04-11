@@ -1,5 +1,7 @@
+try
+{
 console.log("background")
-chrome.browserAction.onClicked.addListener(async(tabs)=>{
+chrome.action.onClicked.addListener(async(tabs)=>{
     const data=await getinfo();
     chrome.tabs.sendMessage(tabs.id,data);
     console.log(data);
@@ -18,9 +20,9 @@ const fetchMemory = () => {
       });
     });
   };
-  const fetchDisplay = () => {
+  const fetchstorage = () => {
     return new Promise((resolve, reject) => {
-      chrome.system.display.getInfo((data) => {
+      chrome.system.storage.getInfo((data) => {
         resolve(data);
       });
     });
@@ -29,12 +31,15 @@ const getinfo = () => {
     return new Promise(async (resolve, reject) => {
       const memory=await fetchMemory();
     const cpu=await fetchCpu();
-    const display=await fetchDisplay()
+    const storage=await fetchstorage();
     let info={
         memory,
         cpu,
-        display
+        storage
     }
     resolve(info);
     });
   };
+} catch (e){
+  console.log(e);
+}

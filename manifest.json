@@ -1,7 +1,7 @@
 {
     "name": "Chromium Diagnostics Manager",
     "short_name": "Diagnostic",
-    "start_url": "index.html",
+    "start_url": "index1.html",
     "scope": "./",
     "icons": [
       {

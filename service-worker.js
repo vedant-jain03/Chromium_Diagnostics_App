@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["README.md","db28827752406aa52fe65841949426e3"],["assets/avatar.svg","ba93a3b092812a7d37a9d7c17d3af7d9"],["assets/hello.svg","0873cf0d2e0594aaf6db958976816002"],["assets/logo.png","27e98114859b02481d7cb55d5bdb0290"],["assets/screenshot.PNG","13b1c41b02a430c8a98c96c94bf723a6"],["contract.png","57f44c7e84e8db553271cc408bbaad22"],["index.html","c3232426432c47a31a59922c4c233081"],["manifest.json","a7c1e2f3bac45423ed874f868fba9774"],["script.js","d87d183456b8f3433660ee0c48ab8b5a"],["styles.css","2edf172ea21d0516d82d03cc80ba47d3"]];
+var precacheConfig = [["Extension/background.js","fd287258d7ebc3afadc97b6608860331"],["Extension/content.js","a4742c33f3e166a57472a107e1e83c1e"],["Extension/manifest.json","57cb08d167c8e44bd1068b581618cb43"],["README.md","f69ab04b7b9518bfe2d5ed9fd37fe8e2"],["assets/avatar.svg","ba93a3b092812a7d37a9d7c17d3af7d9"],["assets/hello.svg","0873cf0d2e0594aaf6db958976816002"],["assets/logo.png","27e98114859b02481d7cb55d5bdb0290"],["assets/screenshot.PNG","13b1c41b02a430c8a98c96c94bf723a6"],["contract.png","57f44c7e84e8db553271cc408bbaad22"],["index.html","c3fa7c369dd627252882c9821671dbdc"],["manifest.json","a7c1e2f3bac45423ed874f868fba9774"],["script.js","1638a866c32cb14ca7d6231d2d20e2dc"],["styles.css","5368da5c5bdd991cfaf8ce1861ca519d"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 

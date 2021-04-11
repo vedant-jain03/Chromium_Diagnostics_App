@@ -532,3 +532,46 @@ main {
   justify-content: center;
   align-items: center;
   }
+
+  #sidebar{
+    padding: 20px 5px;
+  }
+  .sidebar_menu{
+    margin: 70px;
+  } 
+  .sidebar__link {
+    color: #f3f4f6;
+    padding: 19px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.sidebar__title{
+  padding: 10px 20px;
+}
+.sidebar__link:hover{
+  color: #fff;
+  transform: scale(1.01,1.01);
+  background-color: #2e4c8b65;
+}
+.active_menu_link:hover{
+  background-color: #3a6cd765;
+  color: #ffffff;
+}
+#ExtensionIdbutton{
+  background: #3a6cd9;
+    color: #fff;
+    font-weight: 700;
+    margin: 4px 1.5rem;
+    border-radius: 5px;
+    padding: 0.5rem 1.1em;
+    cursor: pointer;
+    transition: .2s ease;
+    box-sizing: border-box;
+    display: inline-block;
+    border: none;
+}
+.navbar__left input{
+  padding: .3rem .5rem;
+  width: 250px;
+}

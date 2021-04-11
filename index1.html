@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Chromium Diagnostics(Vedant Jain)</title>
+    <title>Chromium Diagnostics(Vedant Jain) </title>
   </head>
   <body id="body">
     <div class="container">
@@ -20,9 +20,8 @@
           <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
         <div class="navbar__left">
-          <a href="#">System State</a>
-          <a href="#">Diagnostics Manager</a>
-          <a class="active_link" href="#">System Data</a>
+          <!-- <input type="text" placeholder="Enter Extension ID here" id="extension_ID">
+          <button id="ExtensionIdbutton">Get data</button> -->
         </div>
         <div class="navbar__right">
           <i class="fa fa-battery-three-quarters" aria-hidden="true" size="small" style="color: black; margin-right: 10px;"></i>
@@ -106,32 +105,32 @@
             <div class="charts__right">
               <div class="charts__right__title">
                 <div>
-                  <h1>Memory Display</h1>
-                  <p>Memory and Display Information</p>
+                  <h1>Storage Information</h1>
+                  <p>All Disk Storage Information</p>
                 </div>
                 <i class="fa fa-database" aria-hidden="true"></i>
               </div>
 
               <div class="charts__right__cards">
                 <div class="card1">
-                  <h1>Name:</h1>
-                  <p id="name"></p>
+                  <!-- <h1>Name:</h1> -->
+                  <h3 id="name"></h3>
                 </div>
 
                 <div class="card2">
-                  <h1>Height:</h1>
-                  <p id="height"></p>
+                  <!-- <h1>Height:</h1> -->
+                  <h3 id="height"></h3>
                 </div>
 
                 <div class="card3">
-                  <h1>Width:</h1>
-                  <p id="width"></p>
+                  <!-- <h1>Width:</h1> -->
+                  <h3 id="width"></h3>
                 </div>
 
                 <div class="card4">
-                  <h1>Features:</h1>
+                  <!-- <h1>Features:</h1> -->
                   <!-- <p id="memory_usage"></p> -->
-                  <span class="font-bold text-title" id="features"></span>
+                  <h3 class="font-bold text-title" id="features"></h3>
                 </div>
               </div>
             </div>
@@ -157,65 +156,22 @@
 
         <div class="sidebar__menu">
           <div class="sidebar__link active_menu_link">
-            <i class="fa fa-home"></i>
-            <a href="#">Dashboard</a>
-          </div>
-          <h2>Hardware</h2>
-          <div class="sidebar__link">
-            <i class="fa fa-microchip" aria-hidden="true"></i>
-            <a href="#">CPU</a>
+            <i class="fa fa-laptop"></i>
+            <a href="#">System Data</a>
           </div>
           <div class="sidebar__link">
-            <i class="fa fa-laptop" aria-hidden="true"></i>
-            <a href="#">RAM</a>
+            <i class="fa fa-microchip"></i>
+            <a href="#">Diagnostic Manager</a>
           </div>
           <div class="sidebar__link">
-            <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
-            <a href="#">Bluetooth</a>
-          </div>
-          <div class="sidebar__link">
-            <i class="fa fa-thermometer-half" aria-hidden="true"></i>
-            <a href="#">Cooling</a>
-          </div>
-          <div class="sidebar__link">
-            <i class="fa fa-database" aria-hidden="true"></i>
-            <a href="#">Storage</a>
-          </div>
-          <h2>Diagnostics</h2>
-          <div class="sidebar__link">
-            <i class="fa fa-microchip" aria-hidden="true"></i>
-            <a href="#">CPU</a>
-          </div>
-          <div class="sidebar__link">
-            <i class="fa fa-laptop" aria-hidden="true"></i>
-            <a href="#">Disk</a>
-          </div>
-          <div class="sidebar__link">
-            <i class="fa fa-battery"></i>
-            <a href="#">Battery</a>
-          </div>
-          <div class="sidebar__link">
-            <i class="fa fa-plug"></i>
-            <a href="#">Power</a>
-          </div>
-          <h2>Others</h2>
-          <div class="sidebar__link">
-            <i class="fa fa-rss" aria-hidden="true"></i>
-            <a href="#">Network</a>
-          </div>
-          <div class="sidebar__link">
-            <i class="fa fa-volume-up"></i>
-            <a href="#">Sound</a>
-          </div>
-          <div class="sidebar__logout">
-            <i class="fa fa-power-off"></i>
-            <a href="#">Log out</a>
+            <i class="fa fa-bluetooth-b"></i>
+            <a href="#">System Events</a>
           </div>
         </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
     <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
   </body>
